@@ -92,7 +92,8 @@
                 'font-weight': '100',
                 'line-height': '22px',
                 'text-align': 'center',
-                'cursor': 'pointer'
+                'cursor': 'pointer',
+                'display': 'none',
             })
             .on('click', function () {
                 if ( $wrapper.hasClass('opened') ) {
